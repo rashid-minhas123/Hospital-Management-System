@@ -1,11 +1,5 @@
 import java.io.Serializable;
 
-// ── MAUVIA ───────────────────────────────────────────────────
-// Appointment connects a Patient with a Doctor on a date.
-// Status is automatically set to "Booked" when created.
-// cancel() method changes status to "Cancelled".
-// ─────────────────────────────────────────────────────────────
-
 class Appointment implements Serializable {
     private static final long serialVersionUID = 4L;
     private String id, date, status = "Booked";
