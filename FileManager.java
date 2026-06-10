@@ -2,12 +2,6 @@ import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;
 
-// ── USMAN ────────────────────────────────────────────────────
-// File Handling — saves and loads all data to/from hms_data.dat
-// Uses ObjectOutputStream to save, ObjectInputStream to load.
-// Every class must implement Serializable for this to work.
-// ─────────────────────────────────────────────────────────────
-
 class FileManager {
     private static final String FILE = "hms_data.dat";
 
